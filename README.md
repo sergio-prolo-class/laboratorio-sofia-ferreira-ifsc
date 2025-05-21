@@ -16,6 +16,9 @@ Template para a disciplina de Programação I do [curso de Engenharia de Telecom
 | `rm <arquivo>` | Remove o arquivo |
 | `touch <arquivo>` | Cria um arquivo |
 | `clear` | Limpa a tela |
+| `git add` | Adiciona os arquivos ao git
+| `git commit -m "mensagem descritiva do que foi feito"` | Adiciona uma mensagem ao commit
+| `git push` | Envia as alterações/arquivos adicionados ao git
 
 Para compilar e executar um arquivo em C no terminal, use os seguintes comandos:
 
