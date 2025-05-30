@@ -5,9 +5,9 @@ int main() {
     int avalDesempenho;
 
     printf("Insira o valor total das vendas R$:");
-    scanf("%f\n", &vendas);
+    scanf("%f", &vendas);
     printf("Insira a nota da avaliacao de desempenho: ");
-    scanf("%d\n", &avalDesempenho);
+    scanf(" %d", &avalDesempenho);
 
     if(vendas >= 10000.0) {
         salario = 2000.0 + (vendas * 0,07);
